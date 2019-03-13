@@ -41,7 +41,8 @@ def hit?
   # code hit? here
   prompt_user
   if user_input == "h"
-    deal_card
+    card_total += deal_card
+  elsif 
 end
 
 def invalid_command
