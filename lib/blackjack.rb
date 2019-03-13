@@ -39,7 +39,9 @@ end
 
 def hit?
   # code hit? here
-  
+  prompt_user
+  if user_input == "h"
+    deal_card
 end
 
 def invalid_command
